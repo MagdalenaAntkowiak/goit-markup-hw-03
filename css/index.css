@@ -42,6 +42,10 @@ a {
 
   padding-right: 93px;
 }
+
+.ws {
+  padding-top: 24px;
+}
 .web {
   color: #2196f3;
   font: "Raleway";
@@ -72,10 +76,12 @@ a {
 .navi {
   display: flex;
   padding-left: 0px;
+  padding-top: 32px;
 }
 
 .agency {
   padding-right: 46px;
+  padding-left: 93px;
 }
 
 .portfolio {
@@ -95,17 +101,9 @@ a {
 
 .mail-phone {
   display: flex;
-}
-
-.header {
-  display: flex;
   align-items: center;
-  margin: 0 auto;
 }
 
-header {
-  border-bottom: 1px solid #ececec;
-}
 .lorem-ipsum {
   display: flex;
   gap: 30px;
@@ -113,6 +111,9 @@ header {
   padding-right: 15px;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
 .what-we-do {
   display: flex;
   gap: 30px;
@@ -238,6 +239,9 @@ header {
   letter-spacing: 0.03em;
 }
 
+.web-footer {
+  padding-top: 60px;
+}
 .mail-footer {
   padding-top: 9px;
   padding-bottom: 9px;
@@ -249,6 +253,7 @@ header {
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
   display: flex;
+  padding-top: 9px;
 }
 .address-footer {
   padding-top: 20px;
@@ -261,6 +266,9 @@ header {
   line-height: 2;
   color: var(--font-color);
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
 }
 .type-service {
   font-size: 16px;
@@ -268,6 +276,8 @@ header {
   line-height: 1.88;
   color: var(--font-color2);
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 .link {
   font-size: 14px;
@@ -283,6 +293,33 @@ header {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border-style: none;
+  padding: 6px 22px 6px 22px;
+}
+
+.button-menu {
+  display: flex;
+  gap: 8px;
+  padding-left: 310px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.border {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.block {
+  display: block;
 }
 
 .button-data:hover {
