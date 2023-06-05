@@ -52,7 +52,7 @@ a {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-  padding-left: 15px;
+  margin-left: 15px;
 
   padding-top: 60px;
 }
@@ -80,21 +80,21 @@ a {
 }
 
 .agency {
-  padding-right: 46px;
-  padding-left: 93px;
+  margin-right: 46px;
+  margin-left: 93px;
 }
 
 .portfolio {
-  padding-right: 46px;
+  margin-right: 46px;
 }
 
 .contact {
-  padding-right: 371px;
+  margin-right: 371px;
 }
 
 .phone {
-  padding-left: 50px;
-  padding-right: 27px;
+  margin-left: 50px;
+  margin-right: 27px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -242,10 +242,7 @@ header {
 .web-footer {
   padding-top: 60px;
 }
-.mail-footer {
-  padding-top: 9px;
-  padding-bottom: 9px;
-}
+
 .info-footer {
   font-size: 14px;
   font-weight: 400;
@@ -253,13 +250,22 @@ header {
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
   display: flex;
-  padding-top: 9px;
 }
 .address-footer {
   padding-top: 20px;
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
+.f-mail {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-right: 954px;
+}
+
+.f-phone {
+  margin-bottom: 60px;
+  margin-right: 954px;
+}
 .offer {
   font-size: 18px;
   font-weight: 700;
@@ -347,7 +353,6 @@ header {
 .footer-color {
   background-color: var(--second-background-color);
   width: 1600px;
-  height: 252px;
 }
 
 .background-top {
