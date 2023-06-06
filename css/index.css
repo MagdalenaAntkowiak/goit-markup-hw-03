@@ -351,8 +351,7 @@ header {
 
 .footer-color {
   background-color: var(--second-background-color);
-  width: 1600px;
-  height: 252px;
+  margin-top: 94px;
 }
 
 .background-top {
